@@ -1,3 +1,10 @@
 export default function Home() {
-  return <div>hello world</div>;
+  return (
+    <>
+      <div>
+        <h1>hello world</h1>
+        <p>ok so down below i will have the sign in button?</p>
+      </div>
+    </>
+  );
 }
