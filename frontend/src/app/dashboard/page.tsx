@@ -4,10 +4,12 @@ async function Username() {
   const session = await auth();
 
   if (!session?.user) return null;
+  console.log(session);
 
   return (
     <div>
       <h1>email: {session.user.email}</h1>
+      <h1>id?: {session.user.id}</h1>
     </div>
   );
 }
